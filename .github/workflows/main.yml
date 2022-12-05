@@ -507,3 +507,4 @@ jobs:
           asset_path: ${{ github.workspace }}/${{ env.PRODUCT_NAME }}-macos-arm64/obs-rtspserver-${{ needs.get_plugin_info.outputs.git_tag_name }}-macos-arm64.pkg
           asset_name: obs-rtspserver-${{ needs.get_plugin_info.outputs.git_tag_name }}-macos-arm64.pkg
           asset_content_type: application/vnd.apple.installer+xml
+          
